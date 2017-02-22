@@ -15,4 +15,5 @@ function main() {
   shell.exec("git add .");
   shell.exec("git commit -m 'Deploying to wiki'");
   shell.exec("git remote add origin " + obj.repository.wiki);
+  shell.exec("git push origin master --force");
 }
