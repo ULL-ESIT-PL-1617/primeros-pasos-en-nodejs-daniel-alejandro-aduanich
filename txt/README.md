@@ -3,7 +3,7 @@
 ## Instrucciones para usar la plantilla
 1. Descargar este repositorio y elimianr la carpeta git
 
-```
+```shell
 git clone https://github.com/ULL-ESIT-PL-1617/primeros-pasos-en-nodejs-daniel-alejandro-aduanich plantilla
 cd plantilla
 rm -rf .git
