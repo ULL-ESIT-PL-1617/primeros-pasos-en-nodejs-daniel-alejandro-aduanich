@@ -2,10 +2,11 @@
 
 ## Instrucciones para usar la plantilla
 1. Descargar este repositorio y elimianr la carpeta git
-
-    git clone https://github.com/ULL-ESIT-PL-1617/primeros-pasos-en-nodejs-daniel-alejandro-aduanich plantilla
-    cd plantilla
-    rm -rf .git
+```
+git clone https://github.com/ULL-ESIT-PL-1617/primeros-pasos-en-nodejs-daniel-alejandro-aduanich plantilla
+cd plantilla
+rm -rf .git
+```
 
 2. Actualizar la url del repo en el package.json
 ```json
@@ -19,15 +20,15 @@
 ```
 3. Instalar las dependencias
 
-      `npm install`
+`npm install`
 
 4. Crear el gitbook y la wiki
 
-      `gulp build`
+`gulp build`
 
 5. Desplegar el gitbook y la wiki
 
-      `gulp deploy`
+`gulp deploy`
 
 **IMPORTANTE** : la wiki debe haberse creado manualmente en github
 
