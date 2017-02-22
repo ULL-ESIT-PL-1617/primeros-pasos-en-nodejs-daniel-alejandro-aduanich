@@ -9,8 +9,8 @@ main();
 function main() {
   console.log("Deploy GitBook on Github");
 
-  ghpages.publish(path.join(__dirname, 'gh-pages'), {
+  ghpages.publish('gh-pages', {
       repo: repository,
       message: 'Auto update gh-pages branch'
-  }, function(err) {});  
+  }, function(err) {});
 }
