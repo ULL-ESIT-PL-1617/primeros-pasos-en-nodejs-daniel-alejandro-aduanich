@@ -1,13 +1,12 @@
 var gulp = require('gulp');
 var ghpages = require('gh-pages');
-var path = require('path');
 var gitbook = require('gitbook');
 
 'use strict';
 
 gulp.task('deploy', function(){
 	require ('./scripts/deploy-gitbook.js')
-	require ('./scripts/deploy-wiki.js');
+	//require ('./scripts/deploy-wiki.js');
 });
 
 gulp.task('build', function(cb){

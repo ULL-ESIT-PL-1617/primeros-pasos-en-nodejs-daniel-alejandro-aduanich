@@ -1,14 +1,16 @@
 var ghpages = require('gh-pages');
 var fs = require('fs-extra');
-console.log("Deploy GitBook on Github");
+var path = require('path');
 
 var repository = JSON.parse(fs.readFileSync('package.json', 'utf8')).repository.url;
 
-ghpages.publish("./gh-pages", { 
-   repo: repository, 
-   logger: function(m) { 
-      console.error(m); 
-      
-   } 
-   
-});
+main();
+
+function main() {
+  console.log("Deploy GitBook on Github");
+
+  ghpages.publish(path.join(__dirname, 'gh-pages'), {
+      repo: repository,
+      message: 'Auto update gh-pages branch'
+  }, function(err) {});  
+}
