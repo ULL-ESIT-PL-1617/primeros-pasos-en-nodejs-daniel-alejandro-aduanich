@@ -13,6 +13,6 @@ function main() {
   shell.cd("wiki/");
   shell.exec("git init .");
   shell.exec("git add .");
-  shell.exec("git commit -m 'Deploy to wiki'");
+  shell.exec("git commit -m 'Deploying to wiki'");
   shell.exec("git remote add origin " + obj.repository.wiki);
 }
