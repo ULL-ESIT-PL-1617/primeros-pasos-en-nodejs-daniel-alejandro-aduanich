@@ -14,6 +14,7 @@ gulp.task('deploy', function(){
 
 gulp.task('build', function(cb){
 	require ('./scripts/generate-wiki.js');
+	require ('./scripts/generate-gitbook.js');
 });
 
 gulp.task('serve', function(){
