@@ -6,7 +6,7 @@ var gitbook = require('gitbook');
 
 gulp.task('deploy', function(){
 	require ('./scripts/deploy-gitbook.js')
-	//require ('./scripts/deploy-wiki.js');
+	require ('./scripts/deploy-wiki.js');
 });
 
 gulp.task('build', function(cb){
