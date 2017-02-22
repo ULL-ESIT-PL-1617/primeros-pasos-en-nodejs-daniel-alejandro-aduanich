@@ -9,6 +9,7 @@ var obj = JSON.parse(fs.readFileSync('package.json', 'utf8'));
 main();
 
 function main() {
+  console.log("Generating wiki");
   fs.removeSync ('wiki/.git');
   shell.cd("wiki/");
   shell.exec("git init .");
