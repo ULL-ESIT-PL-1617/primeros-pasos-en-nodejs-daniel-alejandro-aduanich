@@ -4,5 +4,5 @@ main();
 
 function main() {
   console.log("Generating gitbook");
-  shell.exec("gitbook build txt gh-page");
+  shell.exec("gitbook build txt gh-pages");
 }
