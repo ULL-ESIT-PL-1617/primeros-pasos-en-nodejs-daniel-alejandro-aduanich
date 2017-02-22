@@ -1,23 +1,43 @@
 # Introducción
+
+## Instrucciones para usar la plantilla
+1. Descargar este repositorio y elimianr la carpeta git
+
+    git clone https://github.com/ULL-ESIT-PL-1617/primeros-pasos-en-nodejs-daniel-alejandro-aduanich plantilla
+    cd plantilla
+    rm -rf .git
+
+2. Actualizar la url del repo en el package.json
+```json
+...
+"repository": {
+  "type": "git",
+  "url": "your-git-url",
+  "wiki": "your-wiki-url"
+},
+...
+```
+3. Instalar las dependencias
+
+      `npm install`
+
+4. Crear el gitbook y la wiki
+
+      `gulp build`
+
+5. Desplegar el gitbook y la wiki
+
+      `gulp deploy`
+
+**IMPORTANTE** : la wiki debe haberse creado manualmente en github
+
 ## Links al deploy
-- [versión gh-pages](https://ull-esit-pl-1617.github.io/tareas-iniciales-daniel-alejandro-aduanich/)
-- [versión gitbook](https://www.gitbook.com/book/danielfernandezperez/tareas-iniciales-pl/details)
+- [versión gh-pages](https://ull-esit-pl-1617.github.io/primeros-pasos-en-nodejs-daniel-alejandro-aduanich/)
+- [versión wiki](https://github.com/ULL-ESIT-PL-1617/primeros-pasos-en-nodejs-daniel-alejandro-aduanich/wiki)
 
 ## Links a la especificación de la práctica
-- [gitbook especificación](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/practicas/practicatareasiniciales.html)
+- [especificación](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/practicas/practicatareasiniciales2.html)
 - [asignatura campus virtual](https://campusvirtual.ull.es/1617/course/view.php?id=1148)
-
-## Contenido
-
-- [x] NodeJS
-- [x] GitBook
-- [x] Git
-- [x] GitHub
-- [x] MarkDown
-- [x] Pandoc
-- [x] Atom
-- [x] Cloud9
-- [x] Gh-Pages
 
 ## Miembros
 
