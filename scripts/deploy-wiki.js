@@ -2,7 +2,6 @@
 
 var path = require('path');
 var fs = require('fs-extra');
-var init = require('git-init')
 var shell = require('shelljs');
 var obj = JSON.parse(fs.readFileSync('package.json', 'utf8'));
 
