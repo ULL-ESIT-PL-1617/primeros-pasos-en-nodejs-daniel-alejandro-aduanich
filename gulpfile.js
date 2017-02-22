@@ -6,9 +6,7 @@ var gitbook = require('gitbook');
 'use strict';
 
 gulp.task('deploy', function(){
-	ghpages.publish(path.join(__dirname, '_book'), {
-    message: 'Auto update gh-pages branch'
-  }, function(err) {});
+	require ('./scripts/deploy-gitbook.js')
 	require ('./scripts/deploy-wiki.js');
 });
 
