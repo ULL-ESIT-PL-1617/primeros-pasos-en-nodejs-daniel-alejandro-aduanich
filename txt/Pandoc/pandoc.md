@@ -5,7 +5,7 @@ Pandoc es un conversor de documentos libre y de código abierto, mayormente usad
 
 ## Instalación
 
-1) Para instalar Pandoc lo que debemos hacer es abrir una terminal en ubuntu y escribir los siguiente comandos:
+1) Para instalar Pandoc debemos abrir una terminal en ubuntu y escribir los siguiente comandos:
 ```bash
 sudo apt-get update;
 ```
