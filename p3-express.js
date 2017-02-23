@@ -6,12 +6,8 @@ var path = require('path');
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
-app.use(express.static('public'));
-
-app.get('/', function (req, res) {
-  //Modificado un poco 
-  res.render('index', function(err, html));
-})
+// Host the book.
+app.use(express.static(path.join(__dirname, 'book')));
 
 /*
  var router = express.Router();
