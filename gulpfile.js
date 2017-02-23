@@ -20,12 +20,4 @@ gulp.task('serve', function(){
 	shell.exec("gitbook serve txt");
 });
 
-gulp.task('serveh', function() {
-  connect.server({
-    root: ['ghpages/index.html'],
-    port: process.env.PORT || 5000, // localhost:5000
-    livereload: false
-  });
-});
-
 gulp.task('default', []);
