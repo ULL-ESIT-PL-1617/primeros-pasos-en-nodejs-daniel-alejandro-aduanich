@@ -36,6 +36,8 @@ rm -rf .git
 ## Links al deploy
 - [versión gh-pages](https://ull-esit-pl-1617.github.io/primeros-pasos-en-nodejs-daniel-alejandro-aduanich/)
 - [versión wiki](https://github.com/ULL-ESIT-PL-1617/primeros-pasos-en-nodejs-daniel-alejandro-aduanich/wiki)
+- [versión iass](http://10.6.128.40/)
+- [versión heroku](https://heroku-dani2-adu-alex.herokuapp.com/)
 
 ## Links a la especificación de la práctica
 - [especificación](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/practicas/practicatareasiniciales2.html)
