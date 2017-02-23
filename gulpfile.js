@@ -17,7 +17,7 @@ gulp.task('build', function(cb){
 
 gulp.task('serve', function(){
 	connect.server({
-    livereload: true
+    livereload: true,
     root: ["./txt/SUMMARY.md"]
 	});
 });
