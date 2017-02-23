@@ -1,45 +1,22 @@
 {
-  "name": "gitbook-boilerplate",
-  "version": "0.0.1",
-  "description": "GitBook Boilerplate",
-  "main": "index.js",
-  "scripts": {
-    "generate-gitbook": "./scripts/losh generate-gitbook",
-    "generate-wiki": "./scripts/losh generate-wiki",
-    "build": "npm install && npm i gitbook-cli && npm run generate-gitbook && npm run generate-wiki",
-    "deploy-gitbook": "./scripts/losh deploy-gitbook",
-    "deploy-wiki": "./scripts/losh deploy-wiki",
-    "deploy": "npm run build && npm run deploy-gitbook && npm run deploy-wiki",
-    "version": "./scripts/losh version",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ULL-ESIT-PL-1617/primeros-pasos-en-nodejs-daniel-alejandro-aduanich",
-    "wiki": "https://github.com/ULL-ESIT-PL-1617/primeros-pasos-en-nodejs-daniel-alejandro-aduanich.wiki.git"
-  },
-  "keywords": [
-    "gitbook",
-    "boilerplate",
-    "starter"
-  ],
-  "author": "Steven Enten <steven@enten.fr>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/enten/gitbook-boilerplate/issues"
-  },
-  "homepage": "https://github.com/enten/gitbook-boilerplate#readme",
-  "devDependencies": {
-    "async": "^1.4.0",
-    "fs-extra": "^0.22.1",
-    "gh-pages": "^0.3.1",
-    "gitbook": "^2.1.0",
-    "gitbook-cli": "^0.3.4",
-    "gulp-connect": "^5.0.0"
-  },
+  "name": "hello",
+  "version": "0.0.0",
+  "description": "",
+  "main": "p3-express.js",
   "dependencies": {
-    "gitbook": "^2.6.7",
-    "gulp": "^3.9.1",
-    "shelljs": "^0.7.6"
-  }
+    "express": "*",
+    "ejs": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node p3-express.js"
+  },
+
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC"
 }
