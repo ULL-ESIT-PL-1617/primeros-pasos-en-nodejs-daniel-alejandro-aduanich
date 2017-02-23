@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var ghpages = require('gh-pages');
 var gitbook = require('gitbook');
+var connect = require("gulp-connect")
 
 'use strict';
 
@@ -15,7 +16,9 @@ gulp.task('build', function(cb){
 });
 
 gulp.task('serve', function(){
-
+	connect.server({
+    livereload: true
+	});
 });
 
 gulp.task('default', []);
