@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var ghpages = require('gh-pages');
 var gitbook = require('gitbook');
 var connect = require("gulp-connect")
+var shell = require('shelljs');
 
 'use strict';
 
@@ -16,15 +17,12 @@ gulp.task('build', function(cb){
 });
 
 gulp.task('serve', function(){
-	connect.server({
-    livereload: true,
-    root: ["./txt/SUMMARY.md"]
-	});
+	shell.exec("gitbook serve txt");
 });
 
 gulp.task('serveh', function() {
   connect.server({
-    root: [ghpages],
+    root: ['ghpages/index.html'],
     port: process.env.PORT || 5000, // localhost:5000
     livereload: false
   });
