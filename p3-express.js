@@ -7,7 +7,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 // Host the book.
-app.use(express.static(path.join(__dirname, 'book')));
+app.use(express.static(path.join(__dirname, 'bookExpress')));
 
 /*
  var router = express.Router();
