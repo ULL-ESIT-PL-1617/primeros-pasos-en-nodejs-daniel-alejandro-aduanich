@@ -18,7 +18,16 @@ gulp.task('build', function(cb){
 gulp.task('serve', function(){
 	connect.server({
     livereload: true
+    root: ["./txt/SUMMARY.md"]
 	});
+});
+
+gulp.task('serveh', function() {
+  connect.server({
+    root: [ghpages],
+    port: process.env.PORT || 5000, // localhost:5000
+    livereload: false
+  });
 });
 
 gulp.task('default', []);
