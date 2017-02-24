@@ -20,4 +20,8 @@ gulp.task('serve', function(){
 	shell.exec("gitbook serve txt");
 });
 
+gulp.task('heroku', function(){
+	shell.exec("git push heroku master");
+});
+
 gulp.task('default', []);
